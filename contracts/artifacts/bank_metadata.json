@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -84,11 +89,11 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0x6a63cffd5e0665b6a9c2fb99f9f1dafcf47b30df4764e8c09f49e73b69a79273",
+			"keccak256": "0x243cb7b36267c962ec18e81c203cac5f747637eec9b08ef2e0a5f873cb790752",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a4df66ec541c269e3c5108809f6b6386d8149c3d9f9b7cd56bd7e5b607ea9e7e",
-				"dweb:/ipfs/QmaTsWtQgQQe8npBaQ2MiE4iQHDwBkNioFsbkxeJKqw89u"
+				"bzz-raw://32952ecb3afac59235abd3390e32dece311a6e7a12bda0adb76ca63370e1e7ff",
+				"dweb:/ipfs/QmZKRqhzkwgejdbzmCnCyNwfSyfoCdk5tbHo8wdUUzuZDk"
 			]
 		}
 	},
