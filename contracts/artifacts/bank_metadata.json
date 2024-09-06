@@ -11,6 +11,25 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "depositedTo",
+						"type": "address"
+					}
+				],
+				"name": "balanceAdded",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -30,8 +49,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -89,11 +114,11 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0x243cb7b36267c962ec18e81c203cac5f747637eec9b08ef2e0a5f873cb790752",
+			"keccak256": "0xcfbfbc56ccee19b2b7434fa0f97053461d56f76972adb617160769315f59af95",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32952ecb3afac59235abd3390e32dece311a6e7a12bda0adb76ca63370e1e7ff",
-				"dweb:/ipfs/QmZKRqhzkwgejdbzmCnCyNwfSyfoCdk5tbHo8wdUUzuZDk"
+				"bzz-raw://199a30a1562053848ba813e0998cc0073e700b8b9ebced099bc677475043be21",
+				"dweb:/ipfs/QmVeqoA8Mcjkh1a7BFKJCpnCSP5tJaqX9BZzwC9NJpqwbS"
 			]
 		}
 	},
