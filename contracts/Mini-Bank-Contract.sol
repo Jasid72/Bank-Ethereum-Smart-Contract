@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-// Create a fucntion for find total balance of contract.
 pragma solidity ^0.8.5;
 
 contract bank{
@@ -22,6 +21,13 @@ contract bank{
         return balance[msg.sender];
 
     }
+
+    function withdraw(uint amount) public returns (uint) {
+        require(balance[msg.sender] > amount, "Not Enough Balance");
+        payable(msg.sender).transfer(amount);
+        balance[msg.sender] -= amount;
+    }
+
     function getBalance() public view returns (uint){
         return balance[msg.sender];
     }
@@ -34,6 +40,10 @@ contract bank{
         balance[msg.sender] -= amount;
         balance[reciver] += amount;
         assert(balance[msg.sender] == preBalance - amount);
+    }
+
+    function totalamount() public view  returns (uint){
+        return address(this).balance;
     }
 
 }

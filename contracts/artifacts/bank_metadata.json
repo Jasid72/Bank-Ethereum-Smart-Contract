@@ -56,6 +56,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "totalamount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -70,6 +83,25 @@
 				],
 				"name": "transfer",
 				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -102,11 +134,11 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0x7b452bc98c00847de28786e1423993a58e61092fe0bd48902a6114055e20cc93",
+			"keccak256": "0x25da5f30a9dd216f33c36c7ac51de7016fc80b60e5af0eee3b9af7045aa52db0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8abd828b5cdf860b29180b49dc6e8c891c4cdfbcbd06bcee05881e41cf73426a",
-				"dweb:/ipfs/QmSUbHrxmnDaMqTRbnHR1Us2LcfprQZD1tui4MKosjgMaM"
+				"bzz-raw://ffd0df638ba9c72983c73d6c5ac98fd1338e4c258576b5fc179b35debf45190b",
+				"dweb:/ipfs/QmcBYzaiXVM1jwYVY2uDtdoHaSeHimFVJxwPkx1kBRE58P"
 			]
 		}
 	},
