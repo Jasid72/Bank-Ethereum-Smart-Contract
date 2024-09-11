@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -134,11 +129,18 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0x25da5f30a9dd216f33c36c7ac51de7016fc80b60e5af0eee3b9af7045aa52db0",
+			"keccak256": "0xad6b6688cdb1f54bef3a72f83f8334d2e566e347fc5c36ff7295f98eaf521531",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ffd0df638ba9c72983c73d6c5ac98fd1338e4c258576b5fc179b35debf45190b",
-				"dweb:/ipfs/QmcBYzaiXVM1jwYVY2uDtdoHaSeHimFVJxwPkx1kBRE58P"
+				"bzz-raw://4950757df776702048f6634c2e84eabd55c29f07a803f33078cfea47cbac6ef1",
+				"dweb:/ipfs/Qmb5Lqy1qPwyD9c1xHNVxnbkRXEHAifXn1GfumhvNeg93m"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0xeefc949c37a522e5e4c2bf2d1452f3220469214ab09dca179be25e3e327311ad",
+			"urls": [
+				"bzz-raw://cf6e6d7341b9c455f2ba052a9e21ab6f026e51003a5f9c22d97d14d3a9db5176",
+				"dweb:/ipfs/QmXNSsto7oHv3R18R7A1a4DMc3rYnjjU948snTJQcxjG3e"
 			]
 		}
 	},

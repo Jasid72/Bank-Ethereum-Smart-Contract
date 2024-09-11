@@ -1,17 +1,11 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.5;
+import "./Ownable.sol";
 
-contract bank{
+contract bank is Ownable {
     mapping(address => uint)  balance;
-    address owner;
-    modifier onlyowner{
-        require(owner == msg.sender, "Yor are not the owner");
-        _;
-    }
-    constructor(){
-        owner = msg.sender;
-    }
+    
 
     event balanceAdded(uint amount, address depositedTo);
 
@@ -47,3 +41,4 @@ contract bank{
     }
 
 }
+
