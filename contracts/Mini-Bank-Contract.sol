@@ -39,6 +39,9 @@ contract bank is Ownable {
     function totalamount() public view  returns (uint){
         return address(this).balance;
     }
+    function close() public onlyowner{
+        selfdestruct(owner);
+    }
 
 }
 

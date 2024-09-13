@@ -26,6 +26,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "close",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "deposite",
 				"outputs": [
 					{
@@ -129,11 +136,11 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0xad6b6688cdb1f54bef3a72f83f8334d2e566e347fc5c36ff7295f98eaf521531",
+			"keccak256": "0xc1cfa4bf83e2e3db8c3360f2a3ac9fd1a5f573e30c4ea05406a1cd65f9300685",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4950757df776702048f6634c2e84eabd55c29f07a803f33078cfea47cbac6ef1",
-				"dweb:/ipfs/Qmb5Lqy1qPwyD9c1xHNVxnbkRXEHAifXn1GfumhvNeg93m"
+				"bzz-raw://3b6679989ac06b8a7113016146b719ac1bbecb8e02ff3241619a9bd28bd83937",
+				"dweb:/ipfs/Qmc1a1e8epDif97yqfyvEo9kxMHgLwhnf5DSCPPuRgvZuy"
 			]
 		},
 		"contracts/Ownable.sol": {
