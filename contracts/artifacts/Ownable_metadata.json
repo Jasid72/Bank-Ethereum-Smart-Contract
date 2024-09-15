@@ -39,10 +39,10 @@
 	},
 	"sources": {
 		"contracts/Ownable.sol": {
-			"keccak256": "0x90ce959fd7b80173be581a489db8846866b2f533f2500f0cef82617902b117dd",
+			"keccak256": "0x4ca4efe8ea0111dfd829953d9c319d4639fc0cce86397ddd704dcf9a17139f7e",
 			"urls": [
-				"bzz-raw://c324723939b68315a1dbe80b81aec481602bce93d1b164384e38f31f4cc3d2df",
-				"dweb:/ipfs/QmVeiQ2w56yuqrM7fdZBgH11su3Nemvp1vHvmUuLiwUAzF"
+				"bzz-raw://70294efa0abbb33ea22752607731e0375907db33c182d16b2deb548c7f0188cb",
+				"dweb:/ipfs/QmYEVGHy1SXseLcVxW1c9XxB6xR94bhhzwc1TbckX3pTsd"
 			]
 		}
 	},

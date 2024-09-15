@@ -136,18 +136,18 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0xc1cfa4bf83e2e3db8c3360f2a3ac9fd1a5f573e30c4ea05406a1cd65f9300685",
+			"keccak256": "0x732f3a97ff04b51e27244dee14b66c2839d8084e9c25608aede4da74bff4bd5a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b6679989ac06b8a7113016146b719ac1bbecb8e02ff3241619a9bd28bd83937",
-				"dweb:/ipfs/Qmc1a1e8epDif97yqfyvEo9kxMHgLwhnf5DSCPPuRgvZuy"
+				"bzz-raw://52b3cc5fe86abbd5bbd546fba1e7ec7c1cfb5ea638aa718a9e24748213b00cb6",
+				"dweb:/ipfs/Qme5keapKDoR3tvkLZY59Fet8jpFeFhDKZzRCNZv1kV9Zm"
 			]
 		},
 		"contracts/Ownable.sol": {
-			"keccak256": "0xeefc949c37a522e5e4c2bf2d1452f3220469214ab09dca179be25e3e327311ad",
+			"keccak256": "0x90ce959fd7b80173be581a489db8846866b2f533f2500f0cef82617902b117dd",
 			"urls": [
-				"bzz-raw://cf6e6d7341b9c455f2ba052a9e21ab6f026e51003a5f9c22d97d14d3a9db5176",
-				"dweb:/ipfs/QmXNSsto7oHv3R18R7A1a4DMc3rYnjjU948snTJQcxjG3e"
+				"bzz-raw://c324723939b68315a1dbe80b81aec481602bce93d1b164384e38f31f4cc3d2df",
+				"dweb:/ipfs/QmVeiQ2w56yuqrM7fdZBgH11su3Nemvp1vHvmUuLiwUAzF"
 			]
 		}
 	},

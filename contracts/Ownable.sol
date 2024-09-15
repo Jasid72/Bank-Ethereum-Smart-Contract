@@ -2,7 +2,7 @@ pragma solidity ^0.8.5;
 
 
 contract Ownable{
-    address payable owner;
+    address payable internal owner;
     modifier onlyowner{
         require(owner == msg.sender, "Yor are not the owner");
         _;

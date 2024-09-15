@@ -36,6 +36,10 @@ contract bank is Ownable {
         assert(balance[msg.sender] == preBalance - amount);
     }
 
+    function getowner() public view returns(address){
+        return owner;
+    }
+
     function totalamount() public view  returns (uint){
         return address(this).balance;
     }
