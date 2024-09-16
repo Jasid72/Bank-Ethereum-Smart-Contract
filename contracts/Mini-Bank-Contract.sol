@@ -3,6 +3,11 @@
 pragma solidity ^0.8.5;
 import "./Ownable.sol";
 
+interface Government {
+        function addTransaction(address _from, address _to, uint _amount) external;
+
+}
+
 contract bank is Ownable {
     mapping(address => uint)  balance;
     

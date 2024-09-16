@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mini-Bank-Contract.sol": "Government"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mini-Bank-Contract.sol": {
+			"keccak256": "0x61243b876eff941ab70f4d4a01194a413eb0194f2658a937c8276b115e1d9cf0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32bd64785fcbb7da0083bbe36ce6411ddf838099d9d9eb03b82249e6cd301584",
+				"dweb:/ipfs/QmbojvfCNtQ94Z5KoYb978j4kdKHoRxx4L3eW5XwmnLLFs"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0x4ca4efe8ea0111dfd829953d9c319d4639fc0cce86397ddd704dcf9a17139f7e",
+			"urls": [
+				"bzz-raw://70294efa0abbb33ea22752607731e0375907db33c182d16b2deb548c7f0188cb",
+				"dweb:/ipfs/QmYEVGHy1SXseLcVxW1c9XxB6xR94bhhzwc1TbckX3pTsd"
+			]
+		}
+	},
+	"version": 1
+}

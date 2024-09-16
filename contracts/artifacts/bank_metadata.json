@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -52,6 +52,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getowner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -136,18 +149,18 @@
 	},
 	"sources": {
 		"contracts/Mini-Bank-Contract.sol": {
-			"keccak256": "0x732f3a97ff04b51e27244dee14b66c2839d8084e9c25608aede4da74bff4bd5a",
+			"keccak256": "0x61243b876eff941ab70f4d4a01194a413eb0194f2658a937c8276b115e1d9cf0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://52b3cc5fe86abbd5bbd546fba1e7ec7c1cfb5ea638aa718a9e24748213b00cb6",
-				"dweb:/ipfs/Qme5keapKDoR3tvkLZY59Fet8jpFeFhDKZzRCNZv1kV9Zm"
+				"bzz-raw://32bd64785fcbb7da0083bbe36ce6411ddf838099d9d9eb03b82249e6cd301584",
+				"dweb:/ipfs/QmbojvfCNtQ94Z5KoYb978j4kdKHoRxx4L3eW5XwmnLLFs"
 			]
 		},
 		"contracts/Ownable.sol": {
-			"keccak256": "0x90ce959fd7b80173be581a489db8846866b2f533f2500f0cef82617902b117dd",
+			"keccak256": "0x4ca4efe8ea0111dfd829953d9c319d4639fc0cce86397ddd704dcf9a17139f7e",
 			"urls": [
-				"bzz-raw://c324723939b68315a1dbe80b81aec481602bce93d1b164384e38f31f4cc3d2df",
-				"dweb:/ipfs/QmVeiQ2w56yuqrM7fdZBgH11su3Nemvp1vHvmUuLiwUAzF"
+				"bzz-raw://70294efa0abbb33ea22752607731e0375907db33c182d16b2deb548c7f0188cb",
+				"dweb:/ipfs/QmYEVGHy1SXseLcVxW1c9XxB6xR94bhhzwc1TbckX3pTsd"
 			]
 		}
 	},
