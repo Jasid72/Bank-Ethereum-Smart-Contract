@@ -3,13 +3,16 @@
 pragma solidity ^0.8.5;
 import "./Ownable.sol";
 
-interface Government {
+interface GovernmentInterface {
         function addTransaction(address _from, address _to, uint _amount) external;
 
 }
 
 contract bank is Ownable {
-    mapping(address => uint)  balance;
+
+    GovernmentInterface governmentInsance = GovernmentInterface(/*Enter Addres after deploy the Gove contract);*/);
+
+    mapping(address => uint) balance;
     
 
     event balanceAdded(uint amount, address depositedTo);
@@ -31,14 +34,16 @@ contract bank is Ownable {
         return balance[msg.sender];
     }
 
-    function transfer(address reciver, uint amount) public onlyowner{
+    function transfer(address payable reciver, uint amount) public onlyowner{
         require(balance[msg.sender] >= amount, "!!!!!!!!!!!!Not enough Balance!!!!!!!!!");
         require(msg.sender != reciver, "You are using same address. Change sender address.");
 
         uint preBalance = balance[msg.sender];
         balance[msg.sender] -= amount;
         balance[reciver] += amount;
-        assert(balance[msg.sender] == preBalance - amount);
+        //reciver.transfer(amount);
+        governmentInsance.addTransaction(msg.sender, reciver, amount);
+        //assert(balance[msg.sender] == preBalance - amount);
     }
 
     function getowner() public view returns(address){
